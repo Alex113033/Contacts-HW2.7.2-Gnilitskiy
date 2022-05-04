@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		1F6A5AF8281D53CD007856B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A5AF7281D53CD007856B9 /* AppDelegate.swift */; };
 		1F6A5AFA281D53CD007856B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A5AF9281D53CD007856B9 /* SceneDelegate.swift */; };
-		1F6A5AFC281D53CD007856B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A5AFB281D53CD007856B9 /* ViewController.swift */; };
+		1F6A5AFC281D53CD007856B9 /* PortraitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A5AFB281D53CD007856B9 /* PortraitViewController.swift */; };
 		1F6A5AFF281D53CD007856B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6A5AFD281D53CD007856B9 /* Main.storyboard */; };
 		1F6A5B01281D53CE007856B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6A5B00281D53CE007856B9 /* Assets.xcassets */; };
 		1F6A5B04281D53CE007856B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6A5B02281D53CE007856B9 /* LaunchScreen.storyboard */; };
+		1F6A5B0C281D543D007856B9 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A5B0B281D543D007856B9 /* ContactsTableViewController.swift */; };
+		1F6A5B0E281D5681007856B9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A5B0D281D5681007856B9 /* Person.swift */; };
+		1F6A5B13281D7756007856B9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A5B12281D7756007856B9 /* DataManager.swift */; };
+		1F6A5B19281EE4CF007856B9 /* FullListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A5B18281EE4CF007856B9 /* FullListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F6A5AF4281D53CD007856B9 /* Contacts HW2.7 Gnilitskiy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contacts HW2.7 Gnilitskiy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6A5AF7281D53CD007856B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F6A5AF9281D53CD007856B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F6A5AFB281D53CD007856B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F6A5AFB281D53CD007856B9 /* PortraitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitViewController.swift; sourceTree = "<group>"; };
 		1F6A5AFE281D53CD007856B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F6A5B00281D53CE007856B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F6A5B03281D53CE007856B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F6A5B05281D53CE007856B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6A5B0B281D543D007856B9 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		1F6A5B0D281D5681007856B9 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		1F6A5B12281D7756007856B9 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1F6A5B18281EE4CF007856B9 /* FullListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,43 @@
 		1F6A5AF6281D53CD007856B9 /* Contacts HW2.7 Gnilitskiy */ = {
 			isa = PBXGroup;
 			children = (
+				1F6A5B14281D7769007856B9 /* Data */,
+				1F6A5B11281D5750007856B9 /* Models */,
+				1F6A5B15281E9D86007856B9 /* Controller */,
 				1F6A5AF7281D53CD007856B9 /* AppDelegate.swift */,
 				1F6A5AF9281D53CD007856B9 /* SceneDelegate.swift */,
-				1F6A5AFB281D53CD007856B9 /* ViewController.swift */,
 				1F6A5AFD281D53CD007856B9 /* Main.storyboard */,
 				1F6A5B00281D53CE007856B9 /* Assets.xcassets */,
 				1F6A5B02281D53CE007856B9 /* LaunchScreen.storyboard */,
 				1F6A5B05281D53CE007856B9 /* Info.plist */,
 			);
 			path = "Contacts HW2.7 Gnilitskiy";
+			sourceTree = "<group>";
+		};
+		1F6A5B11281D5750007856B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F6A5B0D281D5681007856B9 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F6A5B14281D7769007856B9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1F6A5B12281D7756007856B9 /* DataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1F6A5B15281E9D86007856B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F6A5AFB281D53CD007856B9 /* PortraitViewController.swift */,
+				1F6A5B0B281D543D007856B9 /* ContactsTableViewController.swift */,
+				1F6A5B18281EE4CF007856B9 /* FullListTableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F6A5AFC281D53CD007856B9 /* ViewController.swift in Sources */,
+				1F6A5B0E281D5681007856B9 /* Person.swift in Sources */,
+				1F6A5B13281D7756007856B9 /* DataManager.swift in Sources */,
+				1F6A5B19281EE4CF007856B9 /* FullListTableViewController.swift in Sources */,
+				1F6A5AFC281D53CD007856B9 /* PortraitViewController.swift in Sources */,
 				1F6A5AF8281D53CD007856B9 /* AppDelegate.swift in Sources */,
 				1F6A5AFA281D53CD007856B9 /* SceneDelegate.swift in Sources */,
+				1F6A5B0C281D543D007856B9 /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
